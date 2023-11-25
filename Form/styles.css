@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(177, 192, 197);
+    
+   
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    /* color: #333; Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+}
+h3,h2 {
+    color: rgb(27, 7, 7);
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+.container {
+    background-color: #ffffff9a;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;   
+    
+    /* Center the element vertically */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;         
+           
+}
+
+
+/* Form input Field*/
+form {
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+button:hover {
+    background-color: rgb(4, 73, 13);
+} 
+
+/* table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff9a;
+    /* Center the element vertically */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 1000px;
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+
+
